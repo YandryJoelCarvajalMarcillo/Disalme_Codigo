@@ -1,0 +1,10 @@
+
+# HTID:18892527: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18892527:
